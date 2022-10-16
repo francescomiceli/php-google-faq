@@ -1,0 +1,37 @@
+/* common_general_rules */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* #site_header */
+.row > img {
+	width: 10%;
+}
+
+.container{
+    margin: 0 auto !important;
+}
+
+
+.nav-link {
+	padding: 0 !important;
+	margin: 0 1rem;
+	color: #5f6368 !important;
+	font-size: 20px;
+    border-bottom: 5px solid none !important;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+	color: #0d6efd !important;
+	border-bottom: 5px solid #0d6efd !important;
+}
+/* /#site_header */
+
+/* #site_main */
+#site_main {
+	margin: 5rem 0;
+}
+/* /#site_main */
